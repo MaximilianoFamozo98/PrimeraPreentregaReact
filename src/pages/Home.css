@@ -1,0 +1,21 @@
+section{
+    display: flex;
+    width: 50%;
+    height: 500px;
+    text-align: center; 
+    padding-left: 25%;
+}
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    text-align: center; 
+}
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}

@@ -1,0 +1,32 @@
+.prueba {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    gap: 2%;
+    height: 80%;
+    text-align: center;
+    text-decoration: none;  
+    padding: 2%;
+}
+.prueba1:hover{
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+}
+.link-style {
+    text-decoration: none;
+}
+.botoncard {
+    background-color: #4caf50; 
+    color: #fff; 
+     padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+.botoncard:hover {
+    background-color: #45a049; 
+}
+
+
+    
+  
